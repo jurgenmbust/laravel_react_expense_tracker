@@ -1,0 +1,30 @@
+# Local credentials and tools
+.env
+.env.*
+!.env.example
+.tools/
+*.pem
+*.key
+# Dependencies and generated output
+**/vendor/
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+*.tsbuildinfo
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+backend/bootstrap/cache/*.php
+backend/storage/logs/*
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/.phpunit.result.cache
+backend/.phpunit.cache/
+!backend/storage/logs/.gitignore
+!backend/storage/framework/cache/data/.gitignore
+!backend/storage/framework/sessions/.gitignore
+!backend/storage/framework/views/.gitignore
